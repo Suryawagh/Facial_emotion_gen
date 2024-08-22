@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: rgb(226, 247, 250);
+    background-blend-mode: darken;
+    background-size: cover;
+    padding-top: 0.25%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.credits {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.instructions-section {
+    background: rgb(226, 247, 250);
+    width: 30%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.instructions {
+    font-size: 18px;
+    padding-top: 3%;
+}
+
+.bullets {
+    font-size: 16px;
+    list-style-type: circle;
+}
+
+.video {
+    margin-right: 5%;
+    width: 60%;
+}

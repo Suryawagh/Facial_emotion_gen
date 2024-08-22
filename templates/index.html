@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/styles/style.css">
+</head>
+
+<body>
+
+    <!-- Title of web app -->
+    <header class="title">
+        <div class="header">
+            <h1 class="title" id="web">
+                Facial Emotion Recognition
+            </h1>
+                
+            <p class="credits">
+                by: Suryansh Sanjay Waghmare
+            </p>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Video -->
+        </section>
+            <div class="video" style="float: right">
+                <div class="col-lg-8  offset-lg-4">
+                    <img src="{{ url_for('video_feed') }}">
+                </div>
+            </div>
+
+            <!-- Instructions section on the side -->
+            <div class="instructions-section">
+                <h1 class="instructions" id="about">
+                    About:
+                </h1>
+        
+                <p class="text">
+                    This web app predicts your emotions using a computer vision algorithm
+                </p>
+        
+                <hr style="height:3px; color:rgb(240, 252, 255); background-color:black">
+                
+                <h1 class="instructions" id="inst">
+                    For the best results, please:
+                </h1>
+        
+                <ul class="bullets">
+                    <li>ensure your face is in a well-lit area</li>
+                    <li>place your entire face within the camera frame</li>
+                    <li>look in the general direction of the camera</li>
+                </ul>
+            </div>
+
+        </section>
+
+        
+
+    </main>
+
+</body>
+
+</html>
