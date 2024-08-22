@@ -1,8 +1,6 @@
 ﻿# Facial Emotion Recognition
  Web app to detect emotion by looking at user's face
  
- <img width="700" height="370" src="">
- 
  ## Steps to run app:
  1. Setup + install dependencies
       - Clone this repository onto local drive
